@@ -34,8 +34,8 @@ export function checkCombination(dice) {
         counts[value - 1]++;
     }
 
-    const straight = dice.join("");
-    if (straight.includes("12345") || straight.includes("23456")) {
+    const straight = counts.join("");
+    if (straight.includes("11111")) {
         return "STRAIGHT"
     }
 
