@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@prisma/client": "^5.0.0",
+    "decimal.js": "^10.4.3",
+    "fastify": "^4.20.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "simulation": "node utils/simulator.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^5.0.0"
+  }
+}
